@@ -61,6 +61,8 @@ void Error_Handler(void);
 #define MCO_GPIO_Port GPIOA
 #define VCP_TX_Pin GPIO_PIN_2
 #define VCP_TX_GPIO_Port GPIOA
+#define NCS_Pin GPIO_PIN_0
+#define NCS_GPIO_Port GPIOB
 #define SWDIO_Pin GPIO_PIN_13
 #define SWDIO_GPIO_Port GPIOA
 #define SWCLK_Pin GPIO_PIN_14
@@ -69,6 +71,11 @@ void Error_Handler(void);
 #define VCP_RX_GPIO_Port GPIOA
 #define LD3_Pin GPIO_PIN_3
 #define LD3_GPIO_Port GPIOB
+#define NINT_Pin GPIO_PIN_4
+#define NINT_GPIO_Port GPIOB
+#define NINT_EXTI_IRQn EXTI4_IRQn
+#define NRST_Pin GPIO_PIN_5
+#define NRST_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 

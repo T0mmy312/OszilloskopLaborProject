@@ -28,6 +28,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "channelData.h"
+#include <wizchip_conf.h>
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -165,6 +166,24 @@ void configADCSingleBuffer() {
 	}
 }
 
+void cs_sel() {
+	HAL_GPIO_WritePin(NRST_GPIO_Port, NRST_Pin, GPIO_PIN_RESET); //CS LOW
+}
+
+void cs_desel() {
+	HAL_GPIO_WritePin(NRST_GPIO_Port, NRST_Pin, GPIO_PIN_SET); //CS HIGH
+}
+
+uint8_t spi_rb(void) {
+	uint8_t rbuf;
+	HAL_SPI_Receive(&hspi1, &rbuf, 1, 0xFFFFFFFF);
+	return rbuf;
+}
+
+void spi_wb(uint8_t b) {
+	HAL_SPI_Transmit(&hspi1, &b, 1, 0xFFFFFFFF);
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -202,11 +221,18 @@ int main(void)
   MX_TIM6_Init();
   MX_SPI1_Init();
   /* USER CODE BEGIN 2 */
+  uint8_t retVal, sockStatus;
+  int16_t rcvLen;
+  uint8_t rcvBuf[20], bufSize[] = {2, 2, 2, 2};
+
+  reg_wizchip_cs_cbfunc(cs_sel, cs_desel);
+  reg_wizchip_spi_cbfunc(spi_rb, spi_wb);
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
   //HAL_TIM_Base_Start(&htim6);
   //htim6.Instance->CNT = 0;
   // der DMA (direct memory access) speichert direct den ADC wert in einen gegebenen buffer mit einer gegebenen länge

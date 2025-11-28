@@ -1,0 +1,30 @@
+<!--https://www.geeksforgeeks.org/javascript/how-to-stream-response-in-javascript/#using-xmlhttprequest-xhr-streaming-->
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>Oszilloscop</title>
+    <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+    }
+
+    .canvas-container {
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    canvas.full {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    </style>
+</head>
+<body>
+    <div class="canvas-container">
+        <canvas class="full" id="mainCanvas"></canvas>
+    </div>
+    <script src="main.js"></script>
+</body>
