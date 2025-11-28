@@ -969,7 +969,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "a45d0164-0e8d-4674-957f-762263c51671")
+			(uuid "6ff3c5a9-64c2-4606-a884-88fbdd86af2f")
 		)
 		(fp_circle
 			(center 0 0)
@@ -980,7 +980,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "3878ce9b-6f85-42d5-b7b8-ad761ccd002e")
+			(uuid "b8a0c797-e7fc-4944-b7fe-bc07cbe57653")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -998,7 +998,7 @@
 			(size 4.7 4.7)
 			(drill 4.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "523b61ae-0454-40e4-9aa3-8974f980b6ed")
+			(uuid "0a06ee2a-a6b9-4b3d-86a1-fa9bcc6c2c90")
 		)
 		(embedded_fonts no)
 	)
@@ -1555,7 +1555,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881954855407616"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1587,6 +1587,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "482e1be1-abb5-4e1b-bad8-cb0e794cd18a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75658e04-d17c-42a8-aa5c-28aeb52179da")
 			(effects
 				(font
 					(size 1 1)
@@ -1782,7 +1795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881954855407616"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1814,6 +1827,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "aadd4d3d-72aa-434a-b951-788a6041d090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5e48703a-c8d6-4ff3-aa18-2311f9cba345")
 			(effects
 				(font
 					(size 1 1)
@@ -2009,7 +2035,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881954855407616"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2041,6 +2067,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "67051cd4-745f-4fca-88a1-f221b1bbeace")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8fd8f15-804c-4a8d-a5e3-79d60eb099e7")
 			(effects
 				(font
 					(size 1 1)
@@ -2289,7 +2328,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "69b11dc6-5d50-4f91-ad6b-5778e27c0681")
+			(uuid "31120edd-dcce-47ee-bde5-84619c156638")
 		)
 		(fp_circle
 			(center 0 0)
@@ -2300,7 +2339,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "2967cd09-f8f9-41f4-abf5-8a0c453ec053")
+			(uuid "b2c4a7d3-80c0-48b1-ade1-9b9d32682ffa")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -2318,7 +2357,7 @@
 			(size 4.7 4.7)
 			(drill 4.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "f0a3d6b8-2764-4bb6-8d2a-8c22a31ab827")
+			(uuid "16b7a558-4d4e-4264-8435-051183983fa9")
 		)
 		(embedded_fonts no)
 	)
@@ -2352,7 +2391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881954855407616"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2384,6 +2423,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16651749-f0b5-4e52-bbb6-06c63bdce09b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe98d8e0-8a8b-457d-b6c0-fa41eaa3a971")
 			(effects
 				(font
 					(size 1 1)
@@ -2579,7 +2631,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588881954855407616"
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2611,6 +2663,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a801708a-27c7-4406-aa3d-1d2c73f0a680")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2959a8a7-05f2-4afd-a3a5-94ed5f5809ec")
 			(effects
 				(font
 					(size 1 1)
@@ -3479,7 +3544,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "38263e8f-a57a-4fa3-b69d-b69a5bd640e8")
+			(uuid "3d1478c7-7bd0-4f1a-9f3e-f9bc6ff1e568")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3490,7 +3555,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "6b03567a-7b40-4053-8021-a28246f50cef")
+			(uuid "a99ef63a-4845-4559-84bf-ee81ba6153c4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -3508,7 +3573,7 @@
 			(size 4.7 4.7)
 			(drill 4.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "5c5e7c38-6182-4bdd-86ab-a1ed72a8260f")
+			(uuid "a54221ed-bdb6-4556-a8d6-5a2099cb8cce")
 		)
 		(embedded_fonts no)
 	)
@@ -3595,7 +3660,7 @@
 			)
 			(fill no)
 			(layer "B.CrtYd")
-			(uuid "c36566ea-a6aa-47e4-b882-fa5919386815")
+			(uuid "ab45108d-cfed-4de1-b79f-6731acce02a8")
 		)
 		(fp_circle
 			(center 0 0)
@@ -3606,7 +3671,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "95b5843b-9fe2-48d5-80f8-f730a1b2d207")
+			(uuid "c2b7c042-4d05-4350-9836-356a6c70d447")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -3624,7 +3689,7 @@
 			(size 4.7 4.7)
 			(drill 4.7)
 			(layers "*.Cu" "*.Mask")
-			(uuid "2f228e22-420c-4d97-a416-e3e10d6995e7")
+			(uuid "92d92192-9867-4a6c-8515-f8283cb1af62")
 		)
 		(embedded_fonts no)
 	)
