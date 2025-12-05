@@ -1,6 +1,4 @@
-var canvas = document.getElementById("mainCanvas");
-window.addEventListener('resize', resizeCanvas);
-
+/*
 const xhr = new XMLHttpRequest();
 
 xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts', true);
@@ -25,50 +23,128 @@ xhr.onerror = function () {
 };
 
 xhr.send();
+*/
 
-var ctx = canvas.getContext("2d")
+var device_select = document.getElementById('device-select');
+var dark_mode_button = document.getElementById('dark-mode-button');
+var ctx = document.getElementById('chart');
 
-function resizeCanvas() {
-    // CSS size in CSS pixels
-    const rect = canvas.getBoundingClientRect();
-    const cssWidth = rect.width;
-    const cssHeight = rect.height;
+var dark_mode = false;
 
-    // backing store size in physical pixels for crisp rendering on hi-dpi screens
-    const dpr = window.devicePixelRatio || 1;
-    const backWidth = Math.round(cssWidth * dpr);
-    const backHeight = Math.round(cssHeight * dpr);
+var dark_color = '#ffffffff'
+var light_color = '#2d2d2dff'
+var grid_dark_color = '#646464ff'
+var grid_light_color = '#a7a7a7ff'
 
-    // only update when size changed (avoid unnecessary reflows)
-    if (canvas.width !== backWidth || canvas.height !== backHeight) {
-        canvas.width = backWidth;
-        canvas.height = backHeight;
+var cfg = {
+    type: 'line',
+    data: {
+        datasets: [{
+            data: [
+                {x: 0, y: 1},
+                {x: 1, y: 2},
+                {x: 2, y: 3},
+                {x: 3, y: 4}
+            ]
+        }]
+    },
+    options: {
+        scales: {
+            x: {
+                type: 'linear',
+                color: light_color,
+                title: {
+                    display: true,
+                    text: "t [s]",
+                    color: light_color
+                },
+                ticks: {
+                    display: true,
+                    color: light_color
+                },
+                grid: {
+                    display: true,
+                    color: grid_light_color
+                }
+            },
+            y: {
+                type: 'linear',
+                color: light_color,
+                title: {
+                    display: true,
+                    text: "U [V]",
+                    color: light_color
+                },
+                ticks: {
+                    display: true,
+                    color: light_color
+                },
+                grid: {
+                    display: true,
+                    color: grid_light_color
+                }
+            }
+        },
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+            title: {
+                align: 'right',
+                display: true,
+                text: 'Oscilloscope Channels',
+                color: light_color,
+            },
+            legend: {
+                display: true,
+                labels: {
+                    color: light_color
+                }
+            }
+        }
+    },
+};
 
-        // keep CSS size unchanged
-        canvas.style.width = cssWidth + 'px';
-        canvas.style.height = cssHeight + 'px';
+const chart = new Chart(ctx, cfg);
 
-        // map drawing operations to CSS pixels (so 0..cssWidth is logical coords)
-        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+function buttonClick() {
+    console.log("clicked button!");
+}
 
-        draw(); // redraw after resizing
+function selectDevice() {
+    if (device_select.style.display != 'none')
+        device_select.style.display = 'none';
+    else
+        device_select.style.display = 'block';
+}
+
+
+function toggleDarkMode() {
+    dark_mode = !dark_mode;
+    let element = document.body;
+    element.classList.toggle("dark-mode");
+    if (dark_mode) {
+        dark_mode_button.innerHTML = "Light Mode";
+        cfg.options.plugins.title.color = dark_color;
+        cfg.options.plugins.legend.labels.color = dark_color;
+        cfg.options.scales.x.title.color = dark_color;
+        cfg.options.scales.y.title.color = dark_color;
+        cfg.options.scales.x.ticks.color = dark_color;
+        cfg.options.scales.y.ticks.color = dark_color;
+
+        cfg.options.scales.x.grid.color = grid_dark_color;
+        cfg.options.scales.y.grid.color = grid_dark_color;
     }
+    else {
+        dark_mode_button.innerHTML = "Dark Mode";
+        cfg.options.plugins.title.color = light_color;
+        cfg.options.plugins.legend.labels.color = light_color;
+        cfg.options.scales.x.title.color = light_color;
+        cfg.options.scales.y.title.color = light_color;
+        cfg.options.scales.x.ticks.color = light_color;
+        cfg.options.scales.y.ticks.color = light_color;
+
+        cfg.options.scales.x.grid.color = grid_light_color;
+        cfg.options.scales.y.grid.color = grid_light_color;
+    }
+    chart.update();
 }
-
-function draw() {
-    // clear in logical (CSS) pixels
-    const rect = canvas.getBoundingClientRect();
-    ctx.clearRect(0, 0, rect.width, rect.height);
-
-    // example styling
-    ctx.lineWidth = 2;       // logical pixels
-    ctx.lineCap = 'round';
-
-    // draw diagonal
-    ctx.beginPath();
-    ctx.moveTo(0, 0);
-    ctx.lineTo(rect.width, rect.height); // logical coords (CSS pixels)
-    ctx.stroke();
-}
-
-draw();
