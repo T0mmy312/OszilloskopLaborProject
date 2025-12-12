@@ -6667,7 +6667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 43.18 50.8 0)
 			(effects
 				(font
@@ -6685,7 +6685,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 43.18 50.8 90)
 			(effects
 				(font
@@ -6696,6 +6696,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 43.18 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7460,7 +7469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 90.17 50.8 0)
 			(effects
 				(font
@@ -7478,7 +7487,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 90.17 50.8 90)
 			(effects
 				(font
@@ -7489,6 +7498,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 90.17 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 90.17 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8058,7 +8076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 124.46 50.8 0)
 			(effects
 				(font
@@ -8076,7 +8094,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 124.46 50.8 90)
 			(effects
 				(font
@@ -8087,6 +8105,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 124.46 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 124.46 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8523,7 +8550,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 60.96 50.8 0)
 			(effects
 				(font
@@ -8541,7 +8568,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 60.96 50.8 90)
 			(effects
 				(font
@@ -8552,6 +8579,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 60.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 60.96 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 26.67 50.8 0)
 			(effects
 				(font
@@ -9691,7 +9727,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 26.67 50.8 90)
 			(effects
 				(font
@@ -9702,6 +9738,15 @@
 		)
 		(property "Sim.Pins" "1=K 2=A"
 			(at 26.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 26.67 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)

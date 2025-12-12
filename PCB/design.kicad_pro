@@ -283,6 +283,18 @@
   "erc": {
     "erc_exclusions": [
       [
+        "multiple_net_names|1384300|1714500|69529e65-781f-4c57-b814-606325a6068e|5cbb6551-2b6f-4b4b-98df-3a9cac7c92a9|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77",
+        "improves readability"
+      ],
+      [
+        "multiple_net_names|1562100|1714500|2e094f16-b043-4d09-947b-a3123b193762|0b5e7cee-a7ee-444d-b2ca-5b8f972afddd|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77",
+        "improves readability"
+      ],
+      [
+        "multiple_net_names|584200|1358900|28a97018-9adb-4169-a6c6-7d30722cef15|1d265f51-4764-4039-8799-4aaafbbcd262|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77",
+        "improves readability"
+      ],
+      [
         "multiple_net_names|584200|1384300|a192ecce-fe79-4c44-b8bb-52fe08623aa1|c8013a07-732e-4484-bfce-b50bf85dc704|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77",
         "improves readability"
       ],
@@ -748,6 +760,12 @@
           "label": "mouser",
           "name": "mouser",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
         }
       ],
       "filter_string": "",

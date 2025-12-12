@@ -1586,7 +1586,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1612,7 +1612,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1631,6 +1631,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "75658e04-d17c-42a8-aa5c-28aeb52179da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96459f6b-93ff-423f-9c41-27fb78da378e")
 			(effects
 				(font
 					(size 1 1)
@@ -1826,7 +1839,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1852,7 +1865,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1871,6 +1884,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5e48703a-c8d6-4ff3-aa18-2311f9cba345")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "24298adc-620d-4c7f-8d2b-dc5457765058")
 			(effects
 				(font
 					(size 1 1)
@@ -2066,7 +2092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2092,7 +2118,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2111,6 +2137,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8fd8f15-804c-4a8d-a5e3-79d60eb099e7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b9ea8cb-ceac-45b0-99e0-a78c359ab1a0")
 			(effects
 				(font
 					(size 1 1)
@@ -2433,7 +2472,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2459,7 +2498,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2478,6 +2517,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fe98d8e0-8a8b-457d-b6c0-fa41eaa3a971")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86f5b68d-6fda-4d40-bb35-1ae33c71bb24")
 			(effects
 				(font
 					(size 1 1)
@@ -2673,7 +2725,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://eu.mouser.com/datasheet/3/281/1/LTST_C194KGKT.PDF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2699,7 +2751,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C118334"
+		(property "LCSC" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2718,6 +2770,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2959a8a7-05f2-4afd-a3a5-94ed5f5809ec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "mouser" "https://eu.mouser.com/ProductDetail/LITEON/LTST-C194KGKT?qs=xIkB7y1OToqWwFdcevEBdQ%3D%3D"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da6b84c2-fd6f-437f-851e-35448143fa3d")
 			(effects
 				(font
 					(size 1 1)
