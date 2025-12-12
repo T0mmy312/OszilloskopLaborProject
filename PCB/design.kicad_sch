@@ -1383,7 +1383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "customLib:MODULE_NUCLEO-L432KC"
+		(property "Footprint" "customLib:NUCLEO-L432KC"
 			(at 187.96 97.79 0)
 			(effects
 				(font
@@ -1650,7 +1650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "customLib:MODULE_NUCLEO-L432KC"
+		(property "Footprint" "customLib:NUCLEO-L432KC"
 			(at 144.78 97.79 0)
 			(effects
 				(font
