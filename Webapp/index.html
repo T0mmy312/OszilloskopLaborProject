@@ -3,28 +3,66 @@
 <head>
     <meta charset="utf-8" />
     <title>Oszilloscop</title>
-    <style>
-    html, body {
-        height: 100%;
-        margin: 0;
-    }
-
-    .canvas-container {
-        height: 100%;
-        width: 100%;
-        position: relative;
-    }
-
-    canvas.full {
-        display: block;
-        width: 100%;
-        height: 100%;
-    }
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="popup_styles.css">
 </head>
 <body>
-    <div class="canvas-container">
-        <canvas class="full" id="mainCanvas"></canvas>
+    <div id="device-select" class="popup">
+        <div class="popup-top">
+            <div class="popup-top-text-container">
+                <p>Select devices!</p>
+            </div>
+            <div onclick="selectDevice()" class="popup-top-exit-container">
+                <button class="close-button">
+                    <svg
+                        width="100%"
+                        height="100%"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        >
+                        <path
+                            d="M6.2253 4.81108C5.83477 4.42056 5.20161 4.42056 4.81108 4.81108C4.42056 5.20161 4.42056 5.83477 4.81108 6.2253L10.5858 12L4.81114 17.7747C4.42062 18.1652 4.42062 18.7984 4.81114 19.1889C5.20167 19.5794 5.83483 19.5794 6.22535 19.1889L12 13.4142L17.7747 19.1889C18.1652 19.5794 18.7984 19.5794 19.1889 19.1889C19.5794 18.7984 19.5794 18.1652 19.1889 17.7747L13.4142 12L19.189 6.2253C19.5795 5.83477 19.5795 5.20161 19.189 4.81108C18.7985 4.42056 18.1653 4.42056 17.7748 4.81108L12 10.5858L6.2253 4.81108Z"
+                            fill="currentColor"
+                        />
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="popup-bottom">
+            <div class="button-wrap-row" id="device-button-container">
+                <!-- Devices have to be added in js somehow and should be toggle buttons for subscribed and unsubscribed -->
+                <button onclick="buttonClick()" class="button">Test</button>
+                <button onclick="buttonClick()" class="button">Test</button>
+                <button onclick="buttonClick()" class="button">Test</button>
+            </div>
+        </div>
     </div>
+
+    <div class="top">
+        <div class="left">
+            <canvas id="chart" class="full-canvas"></canvas>
+        </div>
+
+        <div class="right">
+            <div class="button-wrap-row" id="channel-select-container">
+                <!-- Here all of the channels from all of the subscribed devices should be shown with buttons to select the index of the plot its shown on -->
+                <button onclick="buttonClick()" class="button">Test</button>
+                <button onclick="buttonClick()" class="button">Test</button>
+                <button onclick="buttonClick()" class="button">Test</button>
+                <button onclick="buttonClick()" class="button">Test</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="button-wrap-col">
+            <button onclick="selectDevice()" class="button">Select Devices</button>
+            <button onclick="toggleDarkMode()" class="button" id="dark-mode-button">Dark Mode</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="main.js"></script>
 </body>
