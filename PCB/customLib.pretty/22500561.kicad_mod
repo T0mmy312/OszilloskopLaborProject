@@ -1,7 +1,7 @@
 (footprint "22500561"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "2250056-1-2")
 	(tags "Connector")
@@ -25,18 +25,6 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "7799a4ab-efd7-41af-9b16-9e2164cb4bcd")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -400,15 +388,16 @@
 		(remove_unused_layers no)
 		(uuid "a3ae7c45-88ed-428c-9d37-c7b08bb0a1fc")
 	)
-	(model "${KIPRJMOD}/customLib.pretty/2250056-1.stp"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/customLib.pretty/2250056.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 5.7 -19.45 6.6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -90)
 		)
 	)
 )

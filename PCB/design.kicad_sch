@@ -1579,7 +1579,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "customLib:rubber-feet"
+		(property "Footprint" "customLib:G2009"
 			(at 123.19 148.59 0)
 			(effects
 				(font
@@ -2044,7 +2044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "customLib:rubber-feet"
+		(property "Footprint" "customLib:G2009"
 			(at 128.27 143.51 0)
 			(effects
 				(font
@@ -2117,7 +2117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "customLib:rubber-feet"
+		(property "Footprint" "customLib:G2009"
 			(at 123.19 143.51 0)
 			(effects
 				(font
@@ -2190,7 +2190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "customLib:rubber-feet"
+		(property "Footprint" "customLib:G2009"
 			(at 128.27 148.59 0)
 			(effects
 				(font

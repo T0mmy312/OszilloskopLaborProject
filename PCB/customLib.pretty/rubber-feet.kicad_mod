@@ -1,7 +1,7 @@
 (footprint "rubber-feet"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hole 6.4mm, no annular, M6")
 	(tags "mounting hole 6.4mm no annular m6")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "d09510e1-0bda-4b01-a5a1-59b925ba5711")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -74,7 +61,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.CrtYd")
 		(uuid "5b84b394-7167-410e-80e1-769c5b6ef80b")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a36fbf01-d88a-43d8-9048-798473b4f0dd")
 	)
@@ -104,7 +91,19 @@
 		(at 0 0)
 		(size 4.7 4.7)
 		(drill 4.7)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "c9e44080-c758-4272-a5ad-586e83634ca2")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/customLib.pretty/G2009.step"
+		(offset
+			(xyz 0 0 -6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -0)
+		)
 	)
 )
