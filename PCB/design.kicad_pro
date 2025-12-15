@@ -163,8 +163,8 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.0,
-        "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.4,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
@@ -287,7 +287,19 @@
         "improves readability"
       ],
       [
+        "multiple_net_names|1384300|1714500|c03c8b79-bf25-4f95-a932-486eafd67781|5cbb6551-2b6f-4b4b-98df-3a9cac7c92a9|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77",
+        "improves readability"
+      ],
+      [
+        "multiple_net_names|1409700|1054100|af9fe4ab-c401-46a4-80f1-b6629fa5fe9a|c72ea16e-a1c2-4829-b90b-234f945b7c0d|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77",
+        "improves readability"
+      ],
+      [
         "multiple_net_names|1562100|1714500|2e094f16-b043-4d09-947b-a3123b193762|0b5e7cee-a7ee-444d-b2ca-5b8f972afddd|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77",
+        "improves readability"
+      ],
+      [
+        "multiple_net_names|495300|1079500|bf9d5a44-0372-4888-9183-6bfb06e09d75|af56e5ce-24f8-456b-be48-558223fba277|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77|/b7c29cd9-215b-4083-930c-731c0fdbf2f7/251acbd7-f33d-49fb-940d-6d1160f38c77",
         "improves readability"
       ],
       [
