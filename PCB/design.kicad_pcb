@@ -4354,7 +4354,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C123420"
+		(property "LCSC" " C22961"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5783,7 +5783,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C23146"
+		(property "LCSC" " C23146"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -10309,7 +10309,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C103831"
+		(property "LCSC" " C23254"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13031,7 +13031,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C123420"
+		(property "LCSC" " C22961"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -13502,7 +13502,7 @@
 			)
 		)
 		(property ki_fp_filters "DFN*1EP*3x2mm*P0.5mm*")
-		(path "/72226a74-d823-416f-bf35-e1310e657011/9c49dd46-4ecd-42cc-b6b7-abd1d87d8c69")
+		(path "/72226a74-d823-416f-bf35-e1310e657011/a02e13fe-b318-4fbf-b0f3-aa04629cf96b")
 		(sheetname "/analog/")
 		(sheetfile "analog.kicad_sch")
 		(attr smd)
@@ -13873,7 +13873,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C100970"
+		(property "LCSC" "C23137"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -14541,7 +14541,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C100970"
+		(property "LCSC" "C23137"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16499,7 +16499,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C123420"
+		(property "LCSC" " C22961"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
