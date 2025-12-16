@@ -17033,6 +17033,32 @@
 			(justify left)
 		)
 	)
+	(gr_text "CH0"
+		(at 101.752 65.488 90)
+		(layer "F.SilkS" knockout)
+		(uuid "78a94666-d2fe-4df0-af66-8d946efec12e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify right top)
+		)
+	)
+	(gr_text "CH1"
+		(at 114.686 65.48 90)
+		(layer "F.SilkS" knockout)
+		(uuid "84cba171-ba75-440f-92f6-35d1c1b5ca76")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.375)
+				(bold yes)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "DUPLEX"
 		(at 56.37 56.1 0)
 		(layer "F.SilkS")
